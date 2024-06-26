@@ -22,19 +22,23 @@ This repository is a boilerplate for implementing JWT authentication using React
 ### Install backend dependencies
 
 -cd backend
+
 -npm install
 
 ### Install frontend dependencies
 
 -cd frontend
+
 -yarn install
 
 ### set up your own env variables in .env file
 
 -MONGODB_URI = your-mongodb-uri
+
 -JWT_SECRET = your-jwt-secret
 
 ### Run both frontend and backend
 
 -backend: npm run dev
+
 -frontend: yarn start
