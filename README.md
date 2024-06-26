@@ -1,6 +1,6 @@
 # Boilerplate code for JWT Authentication
 
-This repository is a boilerplate for implementing JWT authentication using React for the frontend, Node.js with Express for the backend, and MongoDB for database storage. It includes complete functionality for user registration, login, logout, and persistent authentication using Redux for state management.
+This repository is a boilerplate for implementing JWT authentication using React for the frontend, Node.js with Express for the backend, and MongoDB for database storage. It includes complete functionality for user registration, login, logout, and persistent login using Redux for state management.
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@ This repository is a boilerplate for implementing JWT authentication using React
 
 - **User Registration**: Allows users to sign up with email and password.
 - **User Login**: Provides authentication using JWT upon successful login.
-- **Persistent Authentication**: Uses Redux to manage user authentication state across sessions.
+- **Persistent Login**: Uses Redux to manage user authentication state across sessions.
 - **Validation**: Implements validation checks for user inputs and authentication processes.
 - **Protected Routes**: protected routes for users who signed in.
 
